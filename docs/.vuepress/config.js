@@ -14,7 +14,7 @@ module.exports = {
     ],
     themeConfig: {
         lang: 'zh-CN',
-        logo: '/favicon.ico',
+        logo: '/head.png',
         author: 'Seven',
         authorLink: 'https://numseven.github.io/blog',
         //封面图
