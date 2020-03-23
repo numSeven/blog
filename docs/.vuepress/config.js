@@ -6,6 +6,7 @@ const nameplateConfig = require('../config/nameplateConfig');
 const webpackConfig = require('../config/webpackConfig');
 
 module.exports = {
+    base:'/blog/',
     theme: 'yur',
     //小图标
     head: [
