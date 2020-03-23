@@ -1,7 +1,7 @@
 // 标示牌
 module.exports = {
-    title: 'Yur', // 内容
-    width: '42px', // 宽度
+    title: 'Seven', // 内容
+    width: '65px', // 宽度
     height: '32px', // 高度
     text: [
         {

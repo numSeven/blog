@@ -3,37 +3,31 @@ const socialConfig = require('../config/socialConfig');
 const footerConfig = require('../config/footerConfig');
 const itypedConfig = require('../config/itypedConfig');
 const nameplateConfig = require('../config/nameplateConfig');
-const webpackConfig = require('../config/webpackConfig');
+const navsConfig = require('../config/navsConfig');
 
 module.exports = {
-    base:'/blog/',
+    base:"/blog/",
     theme: 'yur',
     //小图标
     head: [
         ['script', {src: '//at.alicdn.com/t/font_xxx.js'}]
     ],
-    configureWebpack:webpackConfig,
     themeConfig: {
         lang: 'zh-CN',
-        //logo: '/logo48.png',
-        author: 'cnguu',
-        authorLink: 'https://github.com/cnguu/',
+        logo: '/favicon.ico',
+        author: 'Seven',
+        authorLink: 'https://numseven.github.io/blog',
         //封面图
         //banner: '/banner.png',
         locales: {
-            title: '星汉灿烂',
-            description: '书写生活与你'
+            title: '花里胡哨',
+            description: '能写的都写 不止于编程'
         },
-        navs: [
-            {text: '编程技术', link: '/programe/'},
-            {text: '生活兴趣', link: '/life/'},
-            {text: '编程技术', link: '/tool/'},
-            {text: '编程技术', link: '/other/'}
-        ],
+        navs: navsConfig,
         //按钮组
         buttons: [
             {text: '阅读列表', link: '/posts/', type: 'primary'},
-            {text: '了解作者', link: '/about.html', type: 'default'}
+            {text: '了解作者', link: '/about.html', type: 'default'},
         ],
         timeline: true,
         links: linkConfig,
