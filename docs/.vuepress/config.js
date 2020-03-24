@@ -18,7 +18,7 @@ module.exports = {
         author: 'Seven',
         authorLink: 'https://numseven.github.io/blog',
         //封面图
-        //banner: '/banner.png',
+        // banner: '/city.png',
         locales: {
             title: '花里胡哨',
             description: '能写的都写 不止于编程'
