@@ -10,7 +10,7 @@ module.exports = {
     theme: 'yur',
     //小图标
     head: [
-        ['script', {src: '//at.alicdn.com/t/font_xxx.js'}]
+        // ['script', {src: '//at.alicdn.com/t/font_xxx.js'}]
     ],
     themeConfig: {
         lang: 'zh-CN',
