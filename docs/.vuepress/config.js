@@ -77,8 +77,8 @@ module.exports = {
         //添加评论
         discuss: 'valine', //详情查看yur文档  https://imwiki.cn/zh/theme/vuepress-theme-yur.html#vssue
         valine: {
-            appId: '137573',
-            appKey: 'efgl7283',
+            appId: 'gJMReXXeFSy7eKOCXFnBBJz0-gzGzoHsz',
+            appKey: '1mpJ6wi2Qpokk0pYyWIjPJsH',
             placeholder: '在这里写下你的留言丨支持 MarkDown 语法',
             notify: false,
             verify: true,

@@ -30,7 +30,7 @@ module.exports = {
   three: [
     {
       title: "吐个槽",
-      link: "https://support.qq.com/products/137573",
+      link: "https://support.qq.com/product/137573",
       type: "message",
       theme: "outlined"
     },
