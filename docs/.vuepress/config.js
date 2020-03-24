@@ -21,7 +21,7 @@ module.exports = {
         banner: '/egg.png',
         locales: {
             title: '花里胡哨',
-            description: '能写的都写 不止于编程'
+            description: '写作 记录 分享 交流'
         },
         navs: navsConfig,
         //按钮组
@@ -32,7 +32,7 @@ module.exports = {
         timeline: true,
         links: linkConfig,
         about: true,
-        avatar: 'https://static.xmt.cn/cc50c217cbe342ce951324583f2c6139.png',
+        avatar: '/head.png',
         //添加社交
         social: socialConfig,
         //页脚
@@ -70,8 +70,18 @@ module.exports = {
         //crisp: 'xxx',
 
         //添加评论
-        //discuss: 'Vssue', //详情查看yur文档  https://imwiki.cn/zh/theme/vuepress-theme-yur.html#vssue
-
+        discuss: 'valine', //详情查看yur文档  https://imwiki.cn/zh/theme/vuepress-theme-yur.html#vssue
+        valine: {
+            appId: '137573',
+            appKey: 'efgl7283',
+            placeholder: '在这里写下你的留言丨支持 MarkDown 语法',
+            notify: false,
+            verify: true,
+            avatar: 'mp',
+            pageSize: 8,
+            recordIP: true,
+            lang: 'zh-cn'
+        },
         //百度统计
         // baiDu: {
         //     tongJi: '',
