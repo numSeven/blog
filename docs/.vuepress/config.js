@@ -11,11 +11,11 @@ module.exports = {
     //小图标
     head: [
         // ['script', {src: '//at.alicdn.com/t/font_xxx.js'}]
-        ['link', { rel: 'icon', href: '/favicon.ico' }]
+        ['link', { rel: 'icon', href: '/seven.png' }]
     ],
     themeConfig: {
         lang: 'zh-CN',
-        logo: '/favicon.ico',
+        logo: '/seven.png',
         author: 'Seven',
         authorLink: 'https://numseven.github.io/blog',
         //封面图
