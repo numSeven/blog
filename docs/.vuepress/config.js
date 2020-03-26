@@ -11,7 +11,7 @@ module.exports = {
     //小图标
     head: [
         // ['script', {src: '//at.alicdn.com/t/font_xxx.js'}]
-        ['link', { rel: 'icon', href: '/seven.png' }]
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
     ],
     themeConfig: {
         lang: 'zh-CN',
