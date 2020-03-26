@@ -22,7 +22,7 @@ module.exports = {
         banner: '/egg.png',
         locales: {
             title: '花里胡哨',
-            description: '写作 记录 分享 交流'
+            description: '写作，记录，分享，交流'
         },
         navs: navsConfig,
         //按钮组
@@ -39,7 +39,7 @@ module.exports = {
         //页脚
         footer: footerConfig,
         //打字特效
-        ityped: itypedConfig,
+        // ityped: itypedConfig,
         //标签数量
         tagSize: 100, // 默认：100
         //标示牌
