@@ -46,12 +46,12 @@ module.exports = {
         nameplate: nameplateConfig,
         //随机封面
         post: {
-            // cover: [
-            //     '/post/1.jpg',
-            //     '/post/2.jpg',
-            //     'https://xxx.com/3.jpg',
-            //     'https://xxx.com/4.jpg'
-            // ],
+            cover: [
+                '/city.png',
+                // '/post/2.jpg',
+                // 'https://xxx.com/3.jpg',
+                // 'https://xxx.com/4.jpg'
+            ],
             //分页
             pageSize: 12,
             pageSizeOptions: ['12', '24', '48', '96']
@@ -84,10 +84,10 @@ module.exports = {
             lang: 'zh-cn'
         },
         //百度统计
-        // baiDu: {
-        //     tongJi: '',
-        //     autoPush: true
-        // }
+        baiDu: {
+            tongJi: '01a1016bb8bf69c8aec888bf0fa9cb7d',
+            autoPush: true
+        },
         //气泡特效
         post: {
         	bubbles: {
