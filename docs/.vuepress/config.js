@@ -6,12 +6,8 @@ const nameplateConfig = require('../config/nameplateConfig');
 const navsConfig = require('../config/navsConfig');
 
 module.exports = {
-    base:"/blog/",
+    base:"/",
     theme: 'yur',
-    extraWatchFiles: [
-        '/.vuepress/config.js', // 使用相对路径
-        // '/path/to/bar.js'   // 使用绝对路径
-      ],
     //小图标
     head: [
         // ['script', {src: '//at.alicdn.com/t/font_xxx.js'}]
@@ -19,7 +15,7 @@ module.exports = {
     ],
     themeConfig: {
         lang: 'zh-CN',
-        logo: '/head.png',
+        logo: '/favicon.ico',
         author: 'Seven',
         authorLink: 'https://numseven.github.io/blog',
         //封面图
@@ -82,7 +78,7 @@ module.exports = {
             placeholder: '在这里写下你的留言丨支持 MarkDown 语法',
             notify: false,
             verify: true,
-            avatar: 'mp',
+            avatar: 'wavatar',
             pageSize: 8,
             recordIP: true,
             lang: 'zh-cn'
