@@ -68,7 +68,7 @@ module.exports = {
         },
 
         //客服聊天
-        //crisp: 'xxx',
+        crisp: '01a1016bb8bf69c8aec888bf0fa9cb7d',
 
         //添加评论
         discuss: 'valine', //详情查看yur文档  https://imwiki.cn/zh/theme/vuepress-theme-yur.html#vssue
