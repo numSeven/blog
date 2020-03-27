@@ -11,7 +11,7 @@ module.exports = {
     //小图标
     head: [
         // ['script', {src: '//at.alicdn.com/t/font_xxx.js'}]
-        ['link', { rel: 'icon', href: '/favicon.ico' }]
+        ['link', { rel: 'icon', href: '/seven.png' }]
     ],
     themeConfig: {
         lang: 'zh-CN',
@@ -68,7 +68,7 @@ module.exports = {
         },
 
         //客服聊天
-        crisp: '01a1016bb8bf69c8aec888bf0fa9cb7d',
+        // crisp: '01a1016bb8bf69c8aec888bf0fa9cb7d',
 
         //添加评论
         discuss: 'valine', //详情查看yur文档  https://imwiki.cn/zh/theme/vuepress-theme-yur.html#vssue
@@ -85,7 +85,7 @@ module.exports = {
         },
         //百度统计
         baiDu: {
-            tongJi: '01a1016bb8bf69c8aec888bf0fa9cb7d',
+            tongJi: 'https://hm.baidu.com/hm.js?01a1016bb8bf69c8aec888bf0fa9cb7d',
             autoPush: true
         },
         //气泡特效
