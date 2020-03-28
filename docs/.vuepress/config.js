@@ -33,7 +33,7 @@ module.exports = {
         timeline: true,
         links: linkConfig,
         about: true,
-        avatar: '/head.png',
+        avatar: '/seven.png',
         //添加社交
         social: socialConfig,
         //页脚
@@ -58,12 +58,12 @@ module.exports = {
         },
         //打赏
         reward: [
-            'https://static.xmt.cn/ca717dde8ae14ea7ab3c8c74b8711414.png',
-            'https://static.xmt.cn/acc7d3d02b0c4a35a3735268cbb2cce0.png'
+            'https://i.loli.net/2020/03/28/V1atOLP2UujY8Zl.png',
+            'https://i.loli.net/2020/03/28/gPJVN3oi89hpOLB.png'
         ],
         //落下帷幕
         curtain: {
-            tip: '页面准备中...',
+            tip: '客官稍等,菜在锅里,我在水里，马上就要熟了...',
             textShadow: '#e91e63'
         },
 

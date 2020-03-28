@@ -35,9 +35,8 @@ module.exports = {
       theme: "outlined"
     },
     {
-      title: "社区交流扣群：686025154",
-      link:
-        "//shang.qq.com/wpa/qunwpa?idkey=c6afb0610ede557ae6920fc4cb31d652fde73d703203b261c6d2366544371776",
+      title: "社区交流扣群：1094977741",
+      link: "https://jq.qq.com/?_wv=1027&k=5iJrrjI",
       type: "qq",
       theme: "outlined"
     }
