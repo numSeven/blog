@@ -7,6 +7,7 @@ const navsConfig = require('../config/navsConfig');
 
 module.exports = {
     base:"/",
+    dest:'./docs/.vuepress/dist/web',
     theme: 'yur',
     //小图标
     head: [
@@ -59,7 +60,7 @@ module.exports = {
         //打赏
         reward: [
             'https://i.loli.net/2020/03/28/V1atOLP2UujY8Zl.png',
-            'https://i.loli.net/2020/03/28/gPJVN3oi89hpOLB.png'
+            'https://i.loli.net/2020/03/28/DxKUNdPnlWOL2C4.png'
         ],
         //落下帷幕
         curtain: {
