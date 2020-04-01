@@ -30,6 +30,8 @@ tags:
 
 ## 容块示例
 
+我成功了  自动部署leancloud
+
 ::: primary
 这是 ::: primary111
 :::
