@@ -29,5 +29,8 @@
     "koa-static": "^4.0.1",
     "leancloud-storage": "^3.11.0",
     "leanengine": "^3.3.2"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }
