@@ -32,6 +32,8 @@ tags:
 
 我成功了  自动部署leancloud
 
+会自动加载最新文件吗
+
 ::: primary
 这是 ::: primary111
 :::
