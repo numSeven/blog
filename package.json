@@ -1,0 +1,33 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "cnguu's blog",
+  "keywords": [
+    "cnguu",
+    "gleehub",
+    "blog"
+  ],
+  "author": "cnguu",
+  "license": "Mozilla",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cnguu/vuepress-blog.git"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "./deploy.sh"
+  },
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-static": "^4.0.1",
+    "leancloud-storage": "^3.11.0",
+    "leanengine": "^3.3.2"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
