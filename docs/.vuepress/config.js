@@ -6,7 +6,7 @@ const nameplateConfig = require('../config/nameplateConfig');
 const navsConfig = require('../config/navsConfig');
 
 module.exports = {
-    base:"/",
+    base:"/web",
     dest:'./docs/.vuepress/dist/web',
     theme: 'yur',
     //小图标
