@@ -18,7 +18,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "build": "vuepress build docs && node ./leanCloud/index.js",
+    "aa":"node ./leanCloud/index.js",
     "deploy": "./deploy.sh"
   },
   "dependencies": {

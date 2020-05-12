@@ -7,7 +7,7 @@ const navsConfig = require('../config/navsConfig');
 
 module.exports = {
     base:"/blog/",
-    dest:'./docs/.vuepress/dist/web',
+    dest:'./docs/.vuepress/dist',
     theme: 'yur',
     //小图标
     head: [

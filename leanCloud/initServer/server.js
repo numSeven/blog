@@ -8,7 +8,7 @@ AV.init({
   masterKey: process.env.LEANCLOUD_APP_MASTER_KEY
 });
 const app = new Koa();
-app.use(statics(path.join(__dirname, './web')));
+app.use(statics(path.join(__dirname, '.')));
 app.use(AV.koa());
 // 端口一定要从环境变量 `LEANCLOUD_APP_PORT` 中获取。
 // LeanEngine 运行时会分配端口并赋值到该变量。
